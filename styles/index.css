@@ -233,8 +233,28 @@ section {
 svg {
   margin: 0px;
 }
+.section_one {
+  display: flex;
+  height: 100vh;
+}
+.Lock {
+  display: flex;
+}
+.Lock img {
+  height: 10vh;
+}
 @media (max-width: 500px) {
   .navbar-container input[type="checkbox"]:checked ~ .logo {
     display: none;
+  }
+  /* .decision {
+    display: flex;
+  } */
+  .decision #part {
+    margin-top: 0px;
+    height: 100vh;
+  }
+  .Vote {
+    font-size: larger;
   }
 }
