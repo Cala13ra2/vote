@@ -212,6 +212,7 @@ header button {
 }
 /* header ends */
 
+/* first section begins */
 section {
   height: 100vh;
 }
@@ -239,10 +240,43 @@ svg {
 }
 .Lock {
   display: flex;
+  margin-top: 50px;
 }
-.Lock img {
+.ethereum {
+  display: flex;
+  margin-top: 50px;
+}
+.img_parents p {
+  color: #010029;
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.img_parents img {
   height: 10vh;
 }
+.approved {
+  display: flex;
+  margin-top: 50px;
+}
+.hand_cursor {
+  display: flex;
+  margin-top: 50px;
+}
+.low_price {
+  display: flex;
+  margin-top: 50px;
+}
+.time_span {
+  display: flex;
+  margin-top: 50px;
+}
+
+/* first section ends */
 @media (max-width: 500px) {
   .navbar-container input[type="checkbox"]:checked ~ .logo {
     display: none;
@@ -256,5 +290,8 @@ svg {
   }
   .Vote {
     font-size: larger;
+  }
+  svg {
+    display: none;
   }
 }
